@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mon-app-yaml
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mon-app-yaml
+  template:
+    metadata:
+      labels:
+        app: mon-app-yaml
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
