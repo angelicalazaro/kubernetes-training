@@ -1,7 +1,6 @@
 # Kubernetes Training
 
-Repo d'entraînement pour maîtriser Kubernetes, ArgoCD et Terraform,
-en préparation du projet Capgemini (plateforme Azure mobilité/géolocalisation/péage).
+Repo d'entraînement pour maîtriser Kubernetes, ArgoCD et Terraform.
 
 ## Structure
 - `01-kubernetes-basics/` — Pods, Deployments, Services, Namespaces
